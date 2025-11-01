@@ -1,4 +1,8 @@
 #Fibonnaci series: Iterative solution
+"""
+Always handle errors like a non-negative input.
+It offers O(n) time and O(1) space compexity. It is efficient than a recursive solution.
+"""
 def fib(n: int) -> int:
     if n < 0:
         raise ValueError("Input must be non-negative number")
